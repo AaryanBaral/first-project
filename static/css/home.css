@@ -1,0 +1,95 @@
+* {
+    margin: 0px 0px;
+}
+
+.navbar {
+    height: 90px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+#info {
+    display: flex;
+    margin-left: 20px;
+}
+
+#logo img {
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+
+#logoname {
+    margin: 23px 20px;
+}
+
+#logoname p {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Charm', cursive;
+}
+
+#logoname p a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    font-family: 'Kanit', sans-serif;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    list-style: none;
+    border-right: 2px solid black;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    margin-right: 100px;
+}
+
+#join {
+    margin-right: 60px;
+}
+
+#join button {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar ul li :hover {
+    color: rgb(78, 78, 172);
+    transition: all 0.3s ease;
+}
+
+#join button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.main p {
+    display: flex;
+    font-size: 40px;
+    margin-top: 50px;
+    justify-content: center;
+}
