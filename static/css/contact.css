@@ -3,8 +3,7 @@
 }
 
 .first {
-    background-image: url("../image/lakeside.jpg");
-    height: 100vh;
+    background-image: url("../image/contact2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -108,6 +107,10 @@
     color: white;
 }
 
+.main {
+    height: 100vh;
+}
+
 .footer {
     background-color: #222831;
 }
@@ -118,7 +121,7 @@
 
 .infobox {
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 70px;
     width: 200px;
 }
 
@@ -140,7 +143,6 @@
 
 .bigbox {
     width: 400px;
-    margin-left: 150px;
 }
 
 #icons {
