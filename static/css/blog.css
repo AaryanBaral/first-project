@@ -1,0 +1,169 @@
+* {
+    margin: 0px 0px;
+}
+
+.first {
+    background-image: url("../image/lakeside.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+#info {
+    display: flex;
+    margin-left: 20px;
+}
+
+#logo img {
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+}
+
+#logoname {
+    margin: 23px 20px;
+}
+
+#logoname p {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Charm', cursive;
+}
+
+#logoname p a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    font-family: 'Kanit', sans-serif;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    margin-right: 100px;
+}
+
+#join {
+    margin-right: 60px;
+}
+
+#join button {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar ul li :hover {
+    color: rgba(247, 83, 68, 0.863);
+    transition: all 0.3s ease;
+}
+
+#join button:hover {
+    cursor: pointer;
+    border: 2px solid rgba(247, 83, 68, 0.863);
+    background-color: rgba(247, 83, 68, 0.863);
+    transition: all 0.3s ease;
+}
+
+.footer {
+    background-color: #222831;
+}
+
+.footermain {
+    display: flex;
+}
+
+.infobox {
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 200px;
+}
+
+.infobox p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    color: rgb(150, 150, 150);
+}
+
+.infobox h3 {
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.bigbox {
+    width: 400px;
+}
+
+#icons {
+    display: flex;
+}
+
+#icons i {
+    margin: 50px 20px;
+}
+
+.copyright {
+    margin-top: 80px;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.copyright p {
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+.reachus {
+    display: flex;
+    margin: 32px 0px;
+}
+
+.logomsg p {
+    margin: 0px 0px;
+    margin-left: 10px;
+}
+
+.logomsg {
+    margin-left: 15px;
+}
+
+.icon {
+    margin-top: 20px;
+}

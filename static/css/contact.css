@@ -107,10 +107,6 @@
     color: white;
 }
 
-.main {
-    height: 100vh;
-}
-
 .footer {
     background-color: #222831;
 }
@@ -182,4 +178,102 @@
 
 .icon {
     margin-top: 20px;
+}
+
+.mainbody {
+    margin-top: 80px;
+    display: flex;
+}
+
+.title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title p {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+.mainbox {
+    width: 40%;
+}
+
+form {
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox {
+    outline: none;
+    border: none;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    background: transparent;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+
+.infobox::placeholder {
+    color: white;
+}
+
+.formbox {
+    margin-left: 30px;
+    background-color: #222831;
+    margin-bottom: 50px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.9);
+}
+
+.formtitle {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.formtitle p {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: rgb(206, 30, 30);
+}
+
+#messagebox {
+    resize: none;
+}
+
+.btn {
+    color: white;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-top: 50px;
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.button i {
+    color: rgb(206, 30, 30);
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button {
+    margin-bottom: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }

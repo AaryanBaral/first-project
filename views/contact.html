@@ -25,7 +25,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/services">Our Services</a></li>
-                    <li><a href="/contact">Blog</a></li>
+                    <li><a href="/blog">Blog</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
@@ -35,10 +35,31 @@
             </div>
         </div>
         <div class="main">
+            <div class="title">
+                <p>Contact Us</p>
+            </div>
+            <div class="mainbody">
+                <div class="mainbox formbox">
+                    <div class="formtitle">
+                        <p>SEND US A MESSAGE</p>
+                    </div>
+                    <form action="/contact" method="POST">
+                        <input type="text" placeholder="Name" class="inputbox" name="name">
+                        <input type="email" placeholder="Email" class="inputbox" name="email">
+                        <input type="text" placeholder="Subject" class="inputbox" name="subject">
+                        <textarea rows="5" name="message" class="inputbox" id="messagebox" placeholder="Enter your message"></textarea> </textarea>
+                        <div class="button">
+                            <button class="btn">Submit <i class="fa-brands fa-telegram"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="mainbox">
 
+                </div>
+
+            </div>
         </div>
     </div>
-
 
 
     <footer class="footer">
